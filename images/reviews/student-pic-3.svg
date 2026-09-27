@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B4D66"/>
+      <stop offset="100%" stop-color="#2684FC"/>
+    </linearGradient>
+    <linearGradient id="avatar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#EAF2FF" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="200" fill="url(#bg3)"/>
+  <circle cx="200" cy="200" r="190" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.2"/>
+  <path d="M 95 370 C 95 275, 305 275, 305 370 Z" fill="url(#avatar3)"/>
+  <path d="M 175 275 L 200 310 L 225 275 Z" fill="#2684FC"/>
+  <rect x="182" y="215" width="36" height="60" rx="18" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="200" cy="175" rx="52" ry="62" fill="#FFFFFF"/>
+  <path d="M 148 165 C 145 115, 255 115, 252 165 C 245 125, 230 115, 200 115 C 170 115, 155 125, 148 165 Z" fill="#3B4D66"/>
+  <path d="M 183 205 Q 200 218 217 205" fill="none" stroke="#3B4D66" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="180" cy="170" r="5" fill="#3B4D66"/>
+  <circle cx="220" cy="170" r="5" fill="#3B4D66"/>
+  <circle cx="310" cy="90" r="30" fill="#FFFFFF"/>
+  <text x="310" y="96" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#2684FC" text-anchor="middle">&lt;/&gt;</text>
+</svg>

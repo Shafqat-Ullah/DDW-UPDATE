@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us â€” Digital Dream Web (DDW)</title>
+  <meta name="description" content="Contact Digital Dream Web (DDW) for web development, graphic design, freelancing and digital skills. Call 03255635495 or send us a message here.">
+  <meta name="keywords" content="Contact Digital Dream Web, DDW Contact, Web Development Enquiry, Graphic Design Contact, Freelancing Help">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <meta property="og:title" content="Contact Us â€” Digital Dream Web">
+  <meta property="og:description" content="Get in touch with DDW today.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo" aria-label="Digital Dream Web - Home">
+        <img src="images/logo.png" alt="Digital Dream Web logo">
+        <span class="logo-text">Digital<span>Dream</span>Web</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="courses.html">Courses</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="team.html">Our Team</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html" class="active">Contact</a>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / Contact</nav>
+      <h1 class="hero-up d-1">Contact Us</h1>
+      <p class="hero-up d-2">Get in touch with Digital Dream Web. We are here to answer your questions and help you get started.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <!-- Contact info -->
+      <div class="contact-info reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Let&rsquo;s Work Together</h2>
+        <p>Whether you want to learn a new skill, build a website, or grow your digital presence, DDW is here to help. Reach out and we&rsquo;ll get back to you soon.</p>
+
+        <div class="contact-item">
+          <span class="ico">&#9742;</span>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:03255635495">03255635495</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="ico">&#9993;</span>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:shafqatullah15305@gmail.com">shafqatullah15305@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="ico">&#128205;</span>
+          <div>
+            <h4>Location</h4>
+            <p style="color:var(--muted)">Serving clients online, anywhere in the world</p>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><i>f</i></a>
+          <a href="#" aria-label="Instagram"><i>&#9857;</i></a>
+          <a href="#" aria-label="LinkedIn"><i>in</i></a>
+          <a href="#" aria-label="WhatsApp"><i>&#9990;</i></a>
+        </div>
+      </div>
+
+      <!-- Contact form -->
+      <div class="contact-form-wrap reveal delay-1">
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name <span>*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+              <div class="form-error"></div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span>*</span></label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <div class="form-error"></div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone <span>*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number" autocomplete="tel">
+              <div class="form-error"></div>
+            </div>
+            <div class="form-group">
+              <label for="city">City / Location</label>
+              <input type="text" id="city" name="city" placeholder="Your city" autocomplete="address-level2">
+              <div class="form-error"></div>
+            </div>
+          </div>
+
+          <!-- Inquiry type -->
+          <div class="form-group">
+            <span class="field-label">What do you want to do? <span>*</span></span>
+            <div class="inquiry-type" role="radiogroup" aria-label="Inquiry type">
+              <label class="inquiry-opt">
+                <input type="radio" name="inquiry" value="course" id="inq-course" checked>
+                <span class="inq-box"><i>&#127891;</i> Apply for a Course</span>
+              </label>
+              <label class="inquiry-opt">
+                <input type="radio" name="inquiry" value="order" id="inq-order">
+                <span class="inq-box"><i>&#128722;</i> Place an Order</span>
+              </label>
+              <label class="inquiry-opt">
+                <input type="radio" name="inquiry" value="message" id="inq-message">
+                <span class="inq-box"><i>&#128172;</i> Send a Message</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Course selection (when applying for a course) -->
+          <div class="form-group field-conditional" id="course-fields">
+            <label for="course">Select Course to Apply For</label>
+            <select id="course" name="course">
+              <option value="">Choose a course</option>
+              <option value="web-development">Web Development</option>
+              <option value="graphic-design">Graphic Design</option>
+              <option value="freelancing">Freelancing</option>
+              <option value="ai">Artificial Intelligence</option>
+            </select>
+            <div class="form-error"></div>
+          </div>
+
+          <!-- Order selection (when placing an order) -->
+          <div class="form-group field-conditional" id="order-fields" hidden>
+            <label for="order">Select the Service / Order</label>
+            <select id="order" name="order">
+              <option value="">Choose a service</option>
+              <option value="business-website">Business Website</option>
+              <option value="portfolio-website">Portfolio / Personal Website</option>
+              <option value="landing-page">Landing Page</option>
+              <option value="ecommerce-store">E-commerce Store</option>
+              <option value="graphic-design">Graphic / Brand Design</option>
+              <option value="uiux-design">UI/UX Design</option>
+              <option value="other-order">Other</option>
+            </select>
+            <div class="form-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message <span>*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your course, order or question"></textarea>
+            <div class="form-error"></div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">Submit Application</button>
+          <p class="form-msg"></p>
+          <p class="wa-note"><i>&#128172;</i> On submit, WhatsApp opens with your application pre-filled for the Digital Dream Web number (0325 5635495). Just press Send to deliver it.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-content reveal">
+      <h2>Ready to Start Your Digital Journey?</h2>
+      <p>Whether you want to learn a new skill, build a website, or grow your digital presence, DDW is here to help.</p>
+      <div class="cta-actions">
+        <a href="courses.html" class="btn btn-white">Explore Courses</a>
+        <a href="contact.html" class="btn btn-outline-white">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Digital Dream Web - Home">
+            <img src="images/logo.png" alt="Digital Dream Web logo">
+          </a>
+          <p>Digital Dream Web is a digital agency and learning platform focused on web development, graphic design, freelancing and digital skills.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Courses</h4>
+          <ul class="footer-links">
+            <li><a href="courses.html">Web Development</a></li>
+            <li><a href="courses.html">Graphic Design</a></li>
+            <li><a href="courses.html">Freelancing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><span class="ico">&#9742;</span> <a href="tel:03255635495">03255635495</a></li>
+            <li><span class="ico">&#9993;</span> <a href="mailto:shafqatullah15305@gmail.com">shafqatullah15305@gmail.com</a></li>
+          </ul>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i>f</i></a>
+            <a href="#" aria-label="Instagram"><i>&#9857;</i></a>
+            <a href="#" aria-label="LinkedIn"><i>in</i></a>
+            <a href="#" aria-label="WhatsApp"><i>&#9990;</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; 2026 Digital Dream Web. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+
+  <script src="js/script.js"></script>
+  <script>
+    // Pre-select course in the form when arriving from the "Enroll Now" button
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var course = params.get("course");
+      if (course) {
+        var select = document.getElementById("course");
+        var map = {
+          "Web Development": "web-development",
+          "Graphic Design": "graphic-design",
+          "Freelancing": "freelancing",
+          "Artificial Intelligence": "ai"
+        };
+        if (select && map[course]) {
+          select.value = map[course];
+        }
+        // Make sure the "Apply for a Course" option is active
+        var inqCourse = document.getElementById("inq-course");
+        if (inqCourse) inqCourse.checked = true;
+        if (window.contactFormToggle) window.contactFormToggle("course");
+      }
+    })();
+  </script>
+</body>
+</html>
